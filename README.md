@@ -32,11 +32,10 @@ __CardView__ extends the FrameLayout class and lets you show information inside 
 platform. CardView widgets can have shadows and rounded corners.
 
  __Add this to your project Dependencies__
+ compile 'com.android.support:design:23.4.0'
+ compile 'com.android.support:recyclerview-v7:23.4.0'
+ compile 'com.android.support:cardview-v7:23.4.0'
  
-  compile 'com.android.support:design:23.4.0'
-  compile 'com.android.support:recyclerview-v7:23.4.0'
-  compile 'com.android.support:cardview-v7:23.4.0'
-  
   __Resources__
   * [Support Library](https://developer.android.com/topic/libraries/support-library/index.html#overview)
   * [Lists and Cards](https://developer.android.com/training/material/lists-cards.html)
