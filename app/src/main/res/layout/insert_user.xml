@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_margin="@dimen/margin_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_name"
+            android:hint="@string/et_name"
+            android:layout_marginTop="10dp"
+            />
+        <requestFocus/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_name"
+            android:hint="@string/et_uname"
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_uname"/>
+
+        <EditText
+            android:hint="@string/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_pass"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/et_uname"/>
+
+        <Button
+            android:text="@string/btn_add"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_pass"
+            android:id="@+id/btn_add"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HttpUrlConnection-CRUD</string>
+
+    <string name="btn_insert">Tap to Insert</string>
+    <string name="btn_view_all">Tap to View</string>
+    <string name="btn_add">Tap to Add</string>
+    <string name="btn_up">Update</string>
+    <string name="btn_del">Delete</string>
+
+
+    <string name="et_name">Enter Name</string>
+    <string name="et_uname">Enter Username</string>
+    <string name="et_pass">Enter Password</string>
+
+    <string name="id">ID: </string>
+    <string name="name">Name: </string>
+    <string name="username">Username: </string>
+    <string name="password">Password: </string>
+</resources>
