@@ -31,7 +31,7 @@ This class may be used to send and receive streaming data whose length is not kn
 __CardView__ extends the FrameLayout class and lets you show information inside cards that have a consistent look across the
 platform. CardView widgets can have shadows and rounded corners.
 
- ######Add this to your project Dependencies
+ ## Add this to your project Dependencies
 
   compile 'com.android.support:design:23.4.0'
   compile 'com.android.support:recyclerview-v7:23.4.0'
